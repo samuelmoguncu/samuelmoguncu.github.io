@@ -1,10 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Web Saya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+	<meta property="og:site_name" content="" />
+	<meta property="og:site" content="" />
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta name="twitter:card" content="summary_large_image">
+
+    <title>Web Developer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand logo-image" href="index.html">Web Developer</a> 
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-github fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="h1-large">Fullstack Web Developer</h1>
+                        <a class="btn btn-primary rounded-circle" href="#services" style="background-color:#7dc22b;"><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <video autoplay loop muted id="video-background" poster="images/header-background.jpg" playsinline>
+            <source src="images/header-background-video.mp4" type="video/mp4" />
+        </video>
+    </header>
+	
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card" style="background-color: #161223;">
+                        <div class="card-icon">
+                            <span class="fas fa-code"></span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: #ffffff;">Programming</h4>
+                            <div class="card-text" style="color: #ffffff;">
+								Pengelolaan Logika dan Fungsionalitas, interaksi dengan Database
+								Pengembangan API Keamanan dan Perlindungan serta Optimisasi Kinerja: 
+								Memastikan website berjalan dengan efisien. 
+							</div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-color: #161223;">
+                        <div class="card-icon">
+                            <span class="fas fa-mobile-alt"></span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: #ffffff;">Tampilan</h4>
+                            <div class="card-text" style="color: #ffffff;">
+								Merancang dan mengimplementasikan tampilan visual website agar menarik, 
+								responsif, dan mudah digunakan oleh pengguna serta Menerapkan praktik SEO
+								Bekerja sama dengan desainer dan pengembang backend
+							</div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-color: #161223;">
+                        <div class="card-icon">
+                            <span class="fas fa-server" ></span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: #ffffff;">Support</h4>
+                            <div class="card-text" style="color: #ffffff;">
+								Migrasi website ke server dan mengatur DNS untuk membuat website dapat 
+								diakses secara publik. Setelah peluncuran, website memerlukan pemeliharaan 
+								rutin dan upgrade fitur sesuai respon dari pengguna.
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="projects" class="basic-3">
+        <div class="container">
+            <div class="row">
+				<div class="col-12 mb-6 text-center">
+					<h2 style="color: #000;">Projects</h2>
+				</div>
+			
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/capture.jpg" alt="alternative">
+                    </div>
+                </div>
+				
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <h2>
+							masuksini.com
+						</h2>
+                        <p>
+							Bekerja sebegai web developer masukini.com portal jual beli properti dengan area layanan 
+							seluruh Indonesia.
+						</p>
+                        <a class="read-more no-line green" href="https://masuksini.com/" target="blank">
+							Kunjungi Website <span class="fas fa-long-arrow-alt-right"></span>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Kirim Email</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/purecounter.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
