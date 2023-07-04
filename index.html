@@ -25,7 +25,10 @@
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
-            <a class="navbar-brand logo-image" href="index.html">Web Developer</a> 
+            <a class="navbar-brand logo-image" href="index.html">
+                Web Developer
+            </a> 
+
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,6 +38,9 @@
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -52,8 +58,9 @@
                     </span>
                 </span>
             </div>
-        </div>
+        </div> 
     </nav>
+    
 
     <header id="header" class="header">
         <div class="header-content">
@@ -61,29 +68,26 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="h1-large">Fullstack Web Developer</h1>
-                        <a class="btn btn-primary rounded-circle" href="#services" style="background-color:#7dc22b;">
-			   <i class="fas fa-chevron-down"></i>
-			</a>
+                        <a class="btn-solid-lg" href="#services">Discover</a>
                     </div>
                 </div>
             </div>
         </div>
-    
+        
         <video autoplay loop muted id="video-background" poster="images/header-background.jpg" playsinline>
             <source src="images/header-background-video.mp4" type="video/mp4" />
         </video>
-    </header>
-	
-    <div id="services" class="cards-1">
+    </header> 
+
+    <div id="services" class="cards-1" style="background-color: #161223;">
         <div class="container">
-	    <div class="row">
+            <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading text-white">Services</h2>
-                    <p class="p-heading text-white">
-			Menerjemahkan kebutuhan dan visi klien menjadi sebuah situs web Seperti :
-		    </p>
-                </div>
+                    <p class="p-heading text-white">Menerjemahkan kebutuhan dan visi klien menjadi sebuah situs web Seperti :</p>
+                </div> 
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card" style="background-color: #161223;">
@@ -91,9 +95,7 @@
                             <span class="fas fa-building"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title" style="color: #ffffff;">Company Profile</h4>
-                            <div class="card-text" style="color: #ffffff;">
-			    </div>
+                            <h4 class="card-title text-white">Company Profile</h4>
                         </div>
                     </div>
 
@@ -102,9 +104,7 @@
                             <span class="fas fa-shopping-cart"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title" style="color: #ffffff;">Online Shop</h4>
-                            <div class="card-text" style="color: #ffffff;">
-			    </div>
+                            <h4 class="card-title text-white">Online Shop</h4>
                         </div>
                     </div>
 
@@ -113,103 +113,71 @@
                             <span class="fas fa-user"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title" style="color: #ffffff;">Personal Website</h4>
-                            <div class="card-text" style="color: #ffffff;">
-			    </div>
+                            <h4 class="card-title text-white">Personal Website</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <div id="projects" class="basic-3">
-        <div class="container">
+
+    <div id="projects" class="basic-1">
+        
+        <div class="container ">
             <div class="row">
-		<div class="col-12 mb-6 text-center">
-			<h2 style="color: #000;">Projects</h2>
-		</div>
-			
+                <div class="col-lg-12">
+                    <h2 class="h2-heading text-center mb-3">Projects</h2>
+                    <br>
+                </div> 
+            </div>
+
+            <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/capture.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/masuksini.jpg" alt="alternative">
                     </div>
                 </div>
-				
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>
-			    masuksini.com
-			</h2>
+                        <h2>masuksini.com</h2>
                         <p>
-			    Bekerja sebegai web developer masukini.com portal jual beli properti dengan area layanan seluruh Indonesia.
-			</p>
-                        <a class="read-more no-line green" href="https://masuksini.com/" target="blank">
-			    Kunjungi Website <span class="fas fa-long-arrow-alt-right"></span>
-			</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-    <div id="contact" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <a href="#" class="form-control-submit-button">Kirim</a>
+                            Bekerja sebegai web developer masukini.com portal jual beli properti dengan area layanan seluruh Indonesia.
+                        </p>
+                        <a class="read-more no-line green" href="https://masuksini.com">Kunjungi Website <span class="fas fa-long-arrow-alt-right"></span></a>
+                    </div> 
                 </div>
             </div>
         </div>
     </div>
 
-     <div class="footer">
+
+    <div id="contact" class="form-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="footer-col first">
-                        <h6>About Desi</h6>
-                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his are unreserved indulgence. Him hard find read are you</p>
-                    </div>
-                    <div class="footer-col second">
-                        <h6>Links</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a href="#header">Home</a>, <a href="#services">Services</a>, <a href="#projects">Projects</a>, <a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col third">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
-                    </div>
+                    <h2 class="h2-heading">Contact details</h2>
+                    <p class="p-heading">Click one of contacts below to say hello.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:moguncu90@gmail.com">moguncu90@gmail.com</a></li>
+                    </ul>
+                    <a class="btn-solid-lg" href="https://api.whatsapp.com/send?phone=+6281216743582&text=Halo Web Developer!" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Open Whatsapp
+                    </a>
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
+    
+
+    <div class="copyright" style="padding: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <a href="index.html">Samuel Moguncu</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <button onclick="topFunction()" id="myBtn">
         <img src="images/up-arrow.png" alt="alternative">
